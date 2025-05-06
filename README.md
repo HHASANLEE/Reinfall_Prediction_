@@ -2,13 +2,13 @@
 
 This project is a machine learning-based solution designed to predict whether it will rain tomorrow based on historical weather data. The project includes data preprocessing, model training, evaluation, and visualization using Python libraries such as Pandas, Scikit-learn, and Seaborn.
 
-📁 Project Structure
+## Project Structure
 Reinfall_Predictionipynb.ipynb: Jupyter Notebook containing the entire workflow for rainfall prediction including data preprocessing, model training, evaluation, and visualization.
 
-🧠 Problem Statement
+## Problem Statement
 To predict whether it will rain tomorrow using meteorological data. The prediction is a binary classification task: Yes (it will rain) or No (it will not).
 
-📊 Dataset
+## Dataset
 The dataset used contains weather observations such as:
 
 Temperature (Min, Max)
@@ -27,7 +27,7 @@ Rain Today (Yes/No)
 
 Rain Tomorrow (Yes/No) — target variable
 
-🔧 Libraries Used
+## Libraries Used
 pandas: for data loading and manipulation
 
 numpy: for numerical operations
@@ -38,7 +38,7 @@ sklearn: for machine learning models and evaluation
 
 LabelEncoder & StandardScaler: for encoding categorical values and scaling features
 
-🧹 Data Preprocessing
+## Data Preprocessing
 Loading Data: Read CSV using pandas.
 
 Handling Missing Values: Dropped columns with many missing values and filled remaining nulls.
@@ -47,7 +47,7 @@ Label Encoding: Converted categorical variables (RainToday, RainTomorrow) into n
 
 Feature Scaling: Applied StandardScaler to normalize the data.
 
-🤖 Models Used
+## Models Used
 Logistic Regression
 
 Random Forest Classifier
@@ -56,28 +56,28 @@ Support Vector Machine (SVM)
 
 Each model was trained and tested using the same features and evaluated based on accuracy.
 
-📈 Evaluation Metrics
+## Evaluation Metrics
 Accuracy Score
 
 Confusion Matrix
 
 Classification Report (Precision, Recall, F1-score)
 
-📌 Key Results
+## Key Results
 The notebook compares the performance of the models. Generally:
 
 Random Forest performed the best among the three models.
 
 Visualization of confusion matrices helped interpret true positives and false negatives.
 
-📉 Visualizations
+## Visualizations
 Correlation heatmap
 
 Distribution of target variable
 
 Confusion matrices for each model
 
-🚀 How to Run
+## How to Run
 Install required packages:
 
 bash
@@ -92,7 +92,7 @@ Edit
 jupyter notebook Reinfall_Predictionipynb.ipynb
 Run the cells sequentially.
 
-📌 Future Improvements
+## Future Improvements
 Hyperparameter tuning using GridSearchCV
 
 Use cross-validation to better generalize model performance
